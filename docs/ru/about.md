@@ -18,23 +18,19 @@
     <span>0-MPREE-2506-03-06-001</span>
   </div>
   <div class="row">
-    <div class="box" style="margin-left: 10%; margin-right: 10%;">
+    <div class="box" style="margin-left: 5%; margin-right: 5%;">
       <p>Системный<br>идентификатор<br>заказа</p>
     </div>
-    <div class="box" style="margin-left: 40%; margin-right: 40%;">
-      <p>Порядковый<br>номер заказа<br>созданный<br>в рамках<br>аса</p>
+    <div class="box" style="margin-left: 5%; margin-right: 5%;">
+      <p>Порядковый<br>номер заказа<br>созданный<br>в рамках<br>часа</p>
     </div>
-  </div>
-  <div class="row">
-    <div class="box" style="margin-left: 10%; margin-right: 10%;">
-      <p>Конвертация<br>последних<br>5-ти цифр<br>ИНН Заказчика<br>в буквы *</p>
+    <div class="box" style="margin-left: 5%; margin-right: 5%;">
+      <p>Конвертация<br>последних<br>5-ти цифр<br>ИНН Заказчика<br>в буквы</p>
     </div>
-    <div class="box" style="margin-left: 40%; margin-right: 40%;">
+    <div class="box" style="margin-left: 5%; margin-right: 5%;">
       <p>Время (час)<br>по Гринвичу<br>когда был<br>создан заказ</p>
     </div>
-  </div>
-  <div class="row">
-    <div class="box" style="margin-left: 25%; margin-right: 25%;">
+    <div class="box" style="margin-left: 5%; margin-right: 5%;">
       <p>Дата создания<br>заказа, в формате:<br>ГГММ-ДД</p>
     </div>
   </div>
@@ -69,7 +65,7 @@
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
-    min-width: 200px;
+    min-width: 70px;
     position: relative; /* Добавляем relative для корректной работы ::before */
     }
 
