@@ -19,23 +19,23 @@
   </div>
   <div class="row">
     <div class="box" style="margin-left: 10%; margin-right: 10%;">
-      <p>Системный<br>идентификатор заказа</p>
+      <p>Системный<br>идентификатор<br>заказа</p>
     </div>
     <div class="box" style="margin-left: 40%; margin-right: 40%;">
-      <p>Порядковый номер заказа<br>созданный в рамках часа</p>
+      <p>Порядковый<br>номер заказа<br>созданный<br>в рамках<br>аса</p>
     </div>
   </div>
   <div class="row">
     <div class="box" style="margin-left: 10%; margin-right: 10%;">
-      <p>Конвертация последних 5-ти цифр<br>ИНН Заказчика в буквы *</p>
+      <p>Конвертация<br>последних<br>5-ти цифр<br>ИНН Заказчика<br>в буквы *</p>
     </div>
     <div class="box" style="margin-left: 40%; margin-right: 40%;">
-      <p>Время (час) по Гринвичу когда был<br>создан заказ</p>
+      <p>Время (час)<br>по Гринвичу<br>когда был<br>создан заказ</p>
     </div>
   </div>
   <div class="row">
     <div class="box" style="margin-left: 25%; margin-right: 25%;">
-      <p>Дата создания заказа, в формате:<br>ГГММ-ДД</p>
+      <p>Дата создания<br>заказа, в формате:<br>ГГММ-ДД</p>
     </div>
   </div>
 </div>
