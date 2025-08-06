@@ -8,8 +8,8 @@
 
 - Системный идентификатор заказа 
 - Конвертация последних 5 цифр ИНН Заказчика в буквы 
-- **<span style="color: #2E86C1">Время (час) по Гринвичу</span>** создания заказа  
-- **<span style="color: #2E86C1">Дата создания заказа</span>** в формате: `ITMM-ДД`  
+- **<span style="color: #425CB5">Время (час) по Гринвичу</span>** создания заказа  
+- **<span style="color: #425CB5">Дата создания заказа</span>** в формате: `ITMM-ДД`  
 
 ---
 
@@ -41,28 +41,28 @@
 </div>
 
 <style>
-  .schema-container {
+    .schema-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #f9f9f9; /* Светло-серый фон */
     padding: 20px;
-  }
+    }
 
-  .header {
+    .header {
     text-align: center;
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 20px;
-  }
+    }
 
-  .row {
+    .row {
     display: flex;
     justify-content: space-around;
     margin-bottom: 20px;
-  }
+    }
 
-  .box {
+    .box {
     background-color: white;
     border: 1px solid #ccc;
     padding: 10px;
@@ -70,50 +70,51 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
     min-width: 200px;
-  }
+    position: relative; /* Добавляем relative для корректной работы ::before */
+    }
 
-  /* Добавляем стрелки между блоками */
-  .box::before {
+    /* Добавляем стрелки между блоками */
+    .box::before {
     content: "";
     position: absolute;
     width: 0;
     height: 0;
     border-style: solid;
     border-width: 10px 10px 0 10px;
-    border-color: #007bff transparent transparent transparent;
+    border-color: #425CB5 transparent transparent transparent;
     top: -20px;
     left: 50%;
     transform: translateX(-50%);
-  }
+    }
 
-  /* Позиционирование стрелок */
-  .box:nth-child(1)::before {
+    /* Позиционирование стрелок */
+    .box:nth-child(1)::before {
     top: -20px;
-  }
-  .box:nth-child(2)::before {
+    }
+    .box:nth-child(2)::before {
     top: -20px;
-  }
-  .box:nth-child(3)::before {
+    }
+    .box:nth-child(3)::before {
     top: -20px;
-  }
-  .box:nth-child(4)::before {
+    }
+    .box:nth-child(4)::before {
     top: -20px;
-  }
-  .box:nth-child(5)::before {
+    }
+    .box:nth-child(5)::before {
     top: -20px;
-  }
+    }
   </style>
 
-## Из чего состоит <span style="color: #2E86C1">ID Торгов</span>  
+## Из чего состоит <span style="color: #425CB5">ID Торгов</span>  
 
-- **<span style="color: #2E86C1">Системный идентификатор торгов</span>**  
-- **<span style="color: #2E86C1">Конвертация последних 5 цифр ИНН Заказчика в буквы</span>***  
-- **<span style="color: #2E86C1">Время (час) по Гринвичу</span>** размещения заказа на торги  
-- **<span style="color: #2E86C1">Дата размещения заказа на торги</span>** в формате: `ITMM-ДД`  
+- **<span style="color: #425CB5">Системный идентификатор торгов</span>**  
+- **<span style="color: #425CB5">Конвертация последних 5 цифр ИНН Заказчика в буквы</span>***  
+- **<span style="color: #425CB5">Время (час) по Гринвичу</span>** размещения заказа на торги  
+- **<span style="color: #425CB5">Дата размещения заказа на торги</span>** в формате: `ITMM-ДД`  
 
 ---
 
-\* По запросу Заказчика в поддержку платформы партнер может заменить **<span style="color: #2E86C1">префикс</span>** (буквенную замену 5 последних цифр ИНН) на любую другую аббревиатуру.  
+\* По запросу Заказчика в поддержку платформы партнер может заменить **<span style="color: #425CB5">префикс</span>** (буквенную замену 5 последних цифр ИНН) на любую другую аббревиатуру.  
 
 Все изменения для этого проекта могут быть выполнены в вашем общедоступном репозитории GitHub под названием "diplodoc-example/docs".
 Чтобы внести изменения и применить их:
