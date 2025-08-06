@@ -18,19 +18,19 @@
     <span>0-MPREE-2506-03-06-001</span>
   </div>
   <div class="row">
-    <div class="box" style="margin-left: 5%; margin-right: 5%;">
+    <div class="box" style="margin-left: 5%; margin-right: 1%;">
       <p>Системный<br>идентификатор<br>заказа</p>
     </div>
-    <div class="box" style="margin-left: 5%; margin-right: 5%;">
+    <div class="box" style="margin-left: 1%; margin-right: 1%;">
       <p>Порядковый<br>номер заказа<br>созданный<br>в рамках<br>часа</p>
     </div>
-    <div class="box" style="margin-left: 5%; margin-right: 5%;">
+    <div class="box" style="margin-left: 1%; margin-right: 1%;">
       <p>Конвертация<br>последних<br>5-ти цифр<br>ИНН Заказчика<br>в буквы</p>
     </div>
-    <div class="box" style="margin-left: 5%; margin-right: 5%;">
+    <div class="box" style="margin-left: 1%; margin-right: 1%;">
       <p>Время (час)<br>по Гринвичу<br>когда был<br>создан заказ</p>
     </div>
-    <div class="box" style="margin-left: 5%; margin-right: 5%;">
+    <div class="box" style="margin-left: 1%; margin-right: 5%;">
       <p>Дата создания<br>заказа, в формате:<br>ГГММ-ДД</p>
     </div>
   </div>
@@ -38,67 +38,66 @@
 
 <style>
     .schema-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #f9f9f9; /* Светло-серый фон */
-    padding: 20px;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f9f9f9; /* Светло-серый фон */
+        padding: 10px;
     }
 
     .header {
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    }
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 100px;
+        }
 
     .row {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
-    }
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 30px;
+        }
 
     .box {
-    background-color: white;
-    border: 1px solid #ccc;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    min-width: 70px;
-    position: relative; /* Добавляем relative для корректной работы ::before */
-    }
+        background-color: white;
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        vertical-align: middle;
+        min-width: 80px;
+        position: relative; /* Добавляем relative для корректной работы ::before */
+        }
 
     /* Добавляем стрелки между блоками */
     .box::before {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 10px 10px 0 10px;
-    border-color: #425CB5 transparent transparent transparent;
-    top: -20px;
-    left: 50%;
-    transform: translateX(-50%);
-    }
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 10px 10px 0 10px;
+        border-color: #425CB5 transparent transparent transparent;
+        top: -20px;
+        left: 50%;
+        transform: translateX(-50%);
+        }
 
     /* Позиционирование стрелок */
     .box:nth-child(1)::before {
-    top: -20px;
-    }
-    .box:nth-child(2)::before {
-    top: -20px;
-    }
-    .box:nth-child(3)::before {
-    top: -20px;
-    }
-    .box:nth-child(4)::before {
-    top: -20px;
-    }
-    .box:nth-child(5)::before {
-    top: -20px;
-    }
+        top: -20px;
+        }
+        .box:nth-child(2)::before {
+        top: -20px;
+        }
+        .box:nth-child(3)::before {
+        top: -20px;
+        }
+        .box:nth-child(4)::before {
+        top: -20px;
+        }
+        .box:nth-child(5)::before {
+        top: -20px;
+        }
   </style>
 
 ## Из чего состоит <span style="color: #425CB5">ID Торгов</span>  
