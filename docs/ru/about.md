@@ -6,32 +6,42 @@
 
 ## Из чего состоит <span style="color: #425CB5">ID Заказа</span>  
 
-- Системный идентификатор заказа 
-- Конвертация последних 5 цифр ИНН Заказчика в буквы 
-- **<span style="color: #425CB5">Время (час) по Гринвичу</span>** создания заказа  
-- **<span style="color: #425CB5">Дата создания заказа</span>** в формате: `ITMM-ДД`  
-
----
-
 <div class="schema-container">
   <div class="header">
     <span>0-MPREE-2506-03-06-001</span>
+  </div>
+  <div class="row">
+    <div class="another_box" style="margin-left: 5%; margin-right: 1%;">
+      <p>0</p>
+    </div>
+    <div class="another_box" style="margin-left: 1%; margin-right: 1%;">
+      <p>MPREE</p>
+    </div>
+    <div class="another_box" style="margin-left: 1%; margin-right: 1%;">
+      <p>2506-03</p>
+    </div>
+    <div class="another_box" style="margin-left: 1%; margin-right: 1%;">
+      <p>06</p>
+    </div>
+    <div class="another_box" style="margin-left: 1%; margin-right: 5%;">
+      <p>001</p>
+    </div>
   </div>
   <div class="row">
     <div class="box" style="margin-left: 5%; margin-right: 1%;">
       <p>Системный<br>идентификатор<br>заказа</p>
     </div>
     <div class="box" style="margin-left: 1%; margin-right: 1%;">
-      <p>Порядковый<br>номер заказа<br>созданный<br>в рамках<br>часа</p>
+      <p>Конвертация<br>последних<br>5-ти цифр<br>ИНН Заказчика<br>в буквы<span style="color: #ff0000ff">*</span></p>
     </div>
-    <div class="box" style="margin-left: 1%; margin-right: 1%;">
-      <p>Конвертация<br>последних<br>5-ти цифр<br>ИНН Заказчика<br>в буквы</p>
+        <div class="box" style="margin-left: 1%; margin-right: 1%;">
+      <p>Дата создания<br>заказа, в формате:<br>ГГММ-ДД</p>
     </div>
     <div class="box" style="margin-left: 1%; margin-right: 1%;">
       <p>Время (час)<br>по Гринвичу<br>когда был<br>создан заказ</p>
     </div>
     <div class="box" style="margin-left: 1%; margin-right: 5%;">
-      <p>Дата создания<br>заказа, в формате:<br>ГГММ-ДД</p>
+      <p>Порядковый<br>номер заказа<br>созданный<br>в рамках<br>часа</p>
     </div>
   </div>
 </div>
@@ -48,11 +58,12 @@
         text-align: center;
         font-size: 30px;
         font-weight: bold;
-        margin-bottom: 100px;
+        margin-bottom: 45px;
         }
 
     .row {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         justify-content: space-around;
         margin-bottom: 30px;
         }
@@ -63,7 +74,18 @@
         padding: 10px;
         border-radius: 5px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        vertical-align: middle;
+        text-align: center;
+        min-width: 80px;
+        position: relative; /* Добавляем relative для корректной работы ::before */
+        }
+
+    .another_box {
+        background-color: white;
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        text-align: center;
         min-width: 80px;
         position: relative; /* Добавляем relative для корректной работы ::before */
         }
