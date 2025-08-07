@@ -69,7 +69,7 @@
         }
 
     .box {
-        background-color: white;
+        background-color: brown;
         border: 1px solid #ccc;
         padding: 10px;
         border-radius: 5px;
@@ -144,3 +144,6 @@
 - готово, обновления должны быть доступны для всех
 
 Если вы хотите сделать прокси с вашего собственного домена на эту документацию, пожалуйста, [воспользуйтесь гайдом из документации](https://diplodoc.com/docs/ru/personal-domain-ya-cloud).
+
+
+## Из чего состоит <span style="color: #425CB5">Новая страница</span> 
