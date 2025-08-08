@@ -13,3 +13,8 @@ items:
     include:
       path: Instuctions_for_GP/toc.yaml
       mode: link
+  - name: Инструкции для Водителей
+    include:
+      path: Instructions_for_drivers/toc.yaml
+      mode: link
+      

@@ -2,9 +2,10 @@ title: Шаблон документации
 links:
   - title: О проекте
     href: about.md
-  - title: Страница Diplodoc на главной странице
-    href: page.md
-  - title: Структура YFM на главной странице
-    href: anotherpage.md
-  - title: Подраздел на главной странице
-    href: sub-section/
+  - title: Инструкции для Грузоотправителей
+    href: Instuctions_for_GO/
+  - title: Инструкции для Грузоперевозчиков
+    href: Instuctions_for_GP/
+  - title: Инструкции для Водителей
+    href: Instructions_for_drivers/
+  
