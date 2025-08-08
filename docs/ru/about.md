@@ -34,7 +34,7 @@
     <div class="box" style="margin-left: 1%; margin-right: 1%;">
       <p>Конвертация<br>последних<br>5-ти цифр<br>ИНН Заказчика<br>в буквы<span style="color: #ff0000ff">*</span></p>
     </div>
-        <div class="box" style="margin-left: 1%; margin-right: 1%;">
+    <div class="box" style="margin-left: 1%; margin-right: 1%;">
       <p>Дата создания<br>заказа, в формате:<br>ГГММ-ДД</p>
     </div>
     <div class="box" style="margin-left: 1%; margin-right: 1%;">
@@ -79,7 +79,7 @@
         position: relative; /* Добавляем relative для корректной работы ::before */
         }
 
-    .another_box {
+    .box {
         background-color: white;
         border: 1px solid #ccc;
         padding: 10px;
@@ -87,7 +87,7 @@
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         text-align: center;
         min-width: 80px;
-        position: relative; /* Добавляем relative для корректной работы ::before */
+        transform: translateX(-50%);
         }
 
     /* Добавляем стрелки между блоками */
@@ -104,25 +104,27 @@
         transform: translateX(-50%);
         }
 
+
     /* Позиционирование стрелок */
     .box:nth-child(1)::before {
         top: -20px;
         }
-        .box:nth-child(2)::before {
+    .box:nth-child(2)::before {
         top: -20px;
         }
-        .box:nth-child(3)::before {
+    .box:nth-child(3)::before {
         top: -20px;
         }
-        .box:nth-child(4)::before {
+    .box:nth-child(4)::before {
         top: -20px;
         }
-        .box:nth-child(5)::before {
+    .box:nth-child(5)::before {
         top: -20px;
         }
   </style>
 
 ## Из чего состоит <span style="color: #425CB5">ID Торгов</span>  
+
 - **<span style="color: #425CB5">Системный идентификатор торгов</span>**  
 - **<span style="color: #425CB5">Конвертация последних 5 цифр ИНН Заказчика в буквы</span>***  
 - **<span style="color: #425CB5">Время (час) по Гринвичу</span>** размещения заказа на торги  
@@ -143,6 +145,3 @@
 - готово, обновления должны быть доступны для всех
 
 Если вы хотите сделать прокси с вашего собственного домена на эту документацию, пожалуйста, [воспользуйтесь гайдом из документации](https://diplodoc.com/docs/ru/personal-domain-ya-cloud).
-
-
-## Из чего состоит <span style="color: #425CB5">Новая страница</span> 
