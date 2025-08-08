@@ -7,7 +7,7 @@
 
 Авторизоваться можно по номеру телефона или по электронной почте, зарегистрированной в Яндекс ID. Если Яндекс ID отсутствует, его необходимо создать.
 
-<img src="https://drive.google.com/file/d/1DkZDD2DhPAQJ7M9-3wpz2weul2SALGF1/view?usp=share_link" alt="Описание" width="300">
+<img src="https://drive.google.com/uc?export=view&id=1DkZDD2DhPAQJ7M9-3wpz2weul2SALGF1" alt="Описание" width="300">
 
 ---
 
