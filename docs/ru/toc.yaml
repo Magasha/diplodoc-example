@@ -7,11 +7,11 @@ items:
     href: Instructions_for_drivers.md
   - name: Инструкции для Грузоотправителей
     include:
-      path: Instuctions_for_GO/toc.yaml
+      path: Instructions_for_GO/toc.yaml
       mode: link
   - name: Инструкции для Грузоперевозчиков
     include:
-      path: Instuctions_for_GP/toc.yaml
+      path: Instructions_for_GP/toc.yaml
       mode: link
   - name: Инструкции для Водителей
     include:
