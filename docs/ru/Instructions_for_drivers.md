@@ -7,7 +7,7 @@
 
 Авторизоваться можно по номеру телефона или по электронной почте, зарегистрированной в Яндекс ID. Если Яндекс ID отсутствует, его необходимо создать.
 
-![Вход через Яндекс ID](diplodoc-example/_images/_Instructions_for_drivers/2.jpg)
+![Вход через Яндекс ID](/diplodoc-example/_images/_Instructions_for_drivers/b2dc9c2cee44e45672ad6e3994563ac2.jpg)
 
 ---
 
