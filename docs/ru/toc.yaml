@@ -5,7 +5,11 @@ items:
     href: about.md
   - name: Мобиольное приложение "Магистрали"
     href: Instructions_for_drivers.md
-  - name: Подраздел
+  - name: Инструкции для Грузоотправителей
     include:
-      path: sub-section/toc.yaml
+      path: Instuctions_for_GO/toc.yaml
+      mode: link
+  - name: Инструкции для Грузоперевозчиков
+    include:
+      path: Instuctions_for_GP/toc.yaml
       mode: link
