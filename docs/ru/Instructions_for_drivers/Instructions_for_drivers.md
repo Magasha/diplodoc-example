@@ -6,5 +6,5 @@
 ---
 
 ### Яндекс ID
-![Вход через Яндекс ID](/Users/alexeyafon/Library/Mobile Documents/com~apple~CloudDocs/Работа/Code/MarkDown_instr/diplodoc-example/docs/ru/Instructions_for_drivers/images)
+![Вход через Яндекс ID](/Users/alexeyafon/Desktop)
 
